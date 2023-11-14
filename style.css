@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+@font-face {
+    font-family: 'Gilroy-SemiBold';
+    src: url(fonts/Gilroy-Semibold.ttf);
+}
+
+@font-face {
+    font-family: 'Gilroy-Medium';
+    src: url(fonts/Gilroy-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: url(fonts/Gilroy-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Gilroy-Medium';
+    src: url(fonts/Gilroy-Medium.ttf);
+}
+
+body {
+    background-color: #fff;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1170px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    margin-top: 40px;
+    margin-bottom: 74px;
+}
+
+.header-link {
+    color: #000;
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    margin-left: 2.2rem;
+}
+
+.header-link:hover {
+    color: #F25822;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.title {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.dsc {
+    color: #888;
+    font-family: Gilroy-Medium;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    line-height: 120%;
+    padding-right: 130px;
+    margin-bottom: 55px;
+}
+
+.main-btn {
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+
+    padding: 1rem 2rem;
+    color: #fff;
+    color: #FFF;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    width: 140px;
+    margin-right: 72px;
+}
+
+.main-btn-2 {
+    color: #AAA;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.fa-chevron-down {
+    font-size: 10px;
+    margin-left: 5px;
+}
+
+.main {
+    margin-bottom: 178px;
+}
+
+.logos {
+    padding: 97px 0;
+}
